@@ -11,6 +11,9 @@
 
     --footer-background: #80178b;
     --footer-text-color: #ffffff;
+
+    --screenshots-background: #ffd5fb;
+    --screenshots-text-color: #000000;
 }
 
 .dark-mode {
@@ -26,6 +29,9 @@
 
     --footer-background: #468cff;
     --footer-text-color: #ffffff;
+
+    --screenshots-background: #b6ecff;
+    --screenshots-text-color: #000000;
 }
 
 body {
@@ -39,6 +45,25 @@ body {
 
 .fg-logo-text {
     color: var(--logo-text-color);
+}
+
+#screenshots {
+    padding: 80px 0;
+    color: var(--screenshots-text-color);
+    background:
+            url(../images/ViewsBackground_Left_Narrow.svg) left center / contain no-repeat scroll padding-box border-box,
+            url(../images/ViewsBackground_Right_Narrow.svg) right center / contain no-repeat scroll padding-box border-box,
+            linear-gradient(60deg, var(--body-background--2), var(--body-background--2)) 0% 0% / auto repeat scroll padding-box border-box  ;
+    background-blend-mode: normal, normal;
+
+    .img-wrap {
+        height: 160px;
+        overflow: hidden;
+    }
+}
+
+#pandora {
+    padding: 80px 0;
 }
 
 footer {
