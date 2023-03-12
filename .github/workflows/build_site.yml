@@ -1,4 +1,4 @@
-name: docusaurus
+name: Build and Deploy Site
 
 on:
   push:
@@ -28,6 +28,6 @@ jobs:
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           external_repository: metro5/metro5.github.io
-          publish_branch: master  # default: gh-pages
+          publish_branch: main  # default: gh-pages
           publish_dir: ./dist
-          destination_dir: ./
+          destination_dir: "website"
