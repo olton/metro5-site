@@ -33,7 +33,7 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "@olton/metro5": "^0.0.12"
+    "@olton/metro5": "^0.0.13"
   },
   "devDependencies": {
     "vite": "^4.1.4"

@@ -1,0 +1,29 @@
+:root {
+  --body-background--1: #80178b;
+  --body-background--2: #ffd5fb;
+  --logo-text-color: #000000;
+  --appbar-background: #ffffff;
+  --appbar-text-color: #000000;
+  --appbar-background-hover: rgba(128, 23, 139, 0.5);
+  --appbar-text-color-hover: #fff;
+}
+.dark-mode {
+  --body-background--1: #085409;
+  --body-background--2: #448a44;
+  --logo-text-color: #ffffff;
+  --appbar-background: #2b2d30;
+  --appbar-text-color: #adbaa9;
+  --appbar-background-hover: rgba(8, 84, 9, 0.1);
+  --appbar-text-color-hover: #fff;
+}
+body {
+  padding-top: 52px!important;
+}
+.hero {
+  background-image: linear-gradient(to right bottom, var(--body-background--1), var(--body-background--2));
+  padding: 120px 80px;
+}
+.fg-logo-text {
+  color: var(--logo-text-color);
+}
+/*# sourceMappingURL=site.css.map */
