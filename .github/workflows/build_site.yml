@@ -30,4 +30,4 @@ jobs:
           external_repository: metro5/metro5.github.io
           publish_branch: main  # default: gh-pages
           publish_dir: ./dist
-          destination_dir: ./
+          destination_dir: "."
