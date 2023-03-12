@@ -8,18 +8,24 @@
     --appbar-text-color: #000000;
     --appbar-background-hover: rgba(red(#80178b), green(#80178b), blue(#80178b), .5);;
     --appbar-text-color-hover: #fff;
+
+    --footer-background: #80178b;
+    --footer-text-color: #ffffff;
 }
 
 .dark-mode {
-    --body-background--1: #085409;
-    --body-background--2: #448a44;
+    --body-background--1: #468cff;
+    --body-background--2: #b6ecff;
 
     --logo-text-color: #ffffff;
 
     --appbar-background: #2b2d30;
     --appbar-text-color: #adbaa9;
-    --appbar-background-hover: rgba(red(#085409), green(#085409), blue(#085409), .1);;
+    --appbar-background-hover: rgba(red(#468cff), green(#468cff), blue(#468cff), .1);;
     --appbar-text-color-hover: #fff;
+
+    --footer-background: #468cff;
+    --footer-text-color: #ffffff;
 }
 
 body {
@@ -33,4 +39,13 @@ body {
 
 .fg-logo-text {
     color: var(--logo-text-color);
+}
+
+footer {
+    background-color: var(--footer-background);
+    color: var(--footer-text-color);
+
+    a {
+        color: #ffffff!important;
+    }
 }
