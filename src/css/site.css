@@ -10,6 +10,8 @@
   --footer-text-color: #ffffff;
   --screenshots-background: #ffd5fb;
   --screenshots-text-color: #000000;
+  --button-background: #9917da;
+  --button-text-color: #ffffff;
 }
 .dark-mode {
   --body-background--1: #468cff;
@@ -23,6 +25,8 @@
   --footer-text-color: #ffffff;
   --screenshots-background: #b6ecff;
   --screenshots-text-color: #000000;
+  --button-background: #1b5fff;
+  --button-text-color: #ffffff;
 }
 body {
   padding-top: 52px!important;
@@ -35,6 +39,10 @@ body {
   .hero {
     padding: 120px 80px;
   }
+}
+.bg-button-themed {
+  background-color: var(--button-background) !important;
+  color: var(--button-text-color) !important;
 }
 .fg-logo-text {
   color: var(--logo-text-color);
