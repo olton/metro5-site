@@ -29,6 +29,7 @@ import * as ThemeToggle from "@olton/metro5/src/components/theme-toggle"
 import * as Cloak from "@olton/metro5/src/components/cloak/cloak.css?inline"
 import * as Lightbox from "@olton/metro5/src/components/lightbox"
 import * as Activity from "@olton/metro5/src/components/activities"
+import * as Countdown from "@olton/metro5/src/components/countdown"
 import * as Mif from "@olton/metro5/icons"
 
 import "../css/site.css"
