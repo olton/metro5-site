@@ -1,13 +1,11 @@
-import {Metro5} from "@olton/metro5/src/core/metro"
+import {Metro5} from "@olton/metro5/src/"
 
-globalThis.Metro5 = Metro5
 globalThis.Metro = new Metro5({
     onInit: ()=>{
 
     }
 })
 
-import * as ResetCss from "@olton/metro5/src/common/reset"
 import * as ColorCss from "@olton/metro5/src/common/colors"
 import * as FontCss from "@olton/metro5/src/common/font"
 import * as BorderCss from "@olton/metro5/src/common/border"
