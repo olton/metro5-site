@@ -40,7 +40,13 @@ body {
 
 .hero {
     background-image: linear-gradient(to right bottom, var(--body-background--1), var(--body-background--2));
-    padding: 120px 80px;
+    padding: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .hero {
+        padding: 120px 80px;
+    }
 }
 
 .fg-logo-text {
@@ -57,7 +63,7 @@ body {
     background-blend-mode: normal, normal;
 
     .img-wrap {
-        height: 160px;
+        height: 130px;
         overflow: hidden;
     }
 }
@@ -72,5 +78,14 @@ footer {
 
     a {
         color: #ffffff!important;
+    }
+}
+
+@media screen and (min-width: 768px){
+    #futures > .container,
+    #screenshots > .container,
+    #pandora > .container
+    {
+        padding: 80px 0;
     }
 }

@@ -9,7 +9,6 @@
 </head>
 <body class="cloak d-flex flex-column">
     <div data-role="appbar" data-expand-point="md" data-theme-toggle="true" data-theme="light">
-        <button data-role="hamburger" data-active="chevron-down" onclick="$(this).toggleClass('active')"></button>
         <a href="/" class="brand no-hover no-decor text-bold enlarge-2 ml-2" style="line-height: 52px">
             <img src="images/metro5_logo.svg" alt="" style="height: 40px; margin-top: -4px;">
             <span class="ml-2 fg-logo-text">METRO5</span>
@@ -43,18 +42,18 @@
                         </div>
                     </div>
                 </div>
-                <div class="cell-md-6 text-center">
-                    <img src="images/Web_Development.svg" alt="">
+                <div class="cell-md-6 text-center d-none d-block-md">
+                    <img src="images/Web_Development.svg" alt="" style="transform: scale(1.4)">
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="container-fluid">
-        <div class="container p-10">
+    <div class="container-fluid" id="futures">
+        <div class="container">
             <div class="row">
                 <div class="cell-md-4">
-                    <div class="p-10">
+                    <div class="p-5">
                         <img src="images/UI_Design.svg" alt="">
                         <div class="h3 text-light">
                             100+ Professional<br>Components
@@ -65,7 +64,7 @@
                     </div>
                 </div>
                 <div class="cell-md-4">
-                    <div class="p-10">
+                    <div class="p-5">
                         <img src="images/Rocket_Launch.svg" alt="">
                         <div class="h3 text-light">
                             Dependency<br>Free
@@ -76,10 +75,10 @@
                     </div>
                 </div>
                 <div class="cell-md-4">
-                    <div class="p-10">
-                        <img src="images/Bug_Fixing.svg" alt="">
+                    <div class="p-5">
+                        <img src="images/IT_Support.svg" alt="">
                         <div class="h3 text-light">
-                            Premium<br>Support
+                            MIT License and<br>Premium Support
                         </div>
                         <div>
                             We will be there for you when you need help. Rapid response and quick fixing of detected problems.
@@ -93,7 +92,7 @@
     <div class="container-fluid" id="screenshots">
         <div class="container">
             <div class="row" data-role="lightbox">
-                <div class="cell-md-6">
+                <div class="cell-md-6 order-2 order-1-md">
                     <div class="row">
                         <div class="cell-6 p-2">
                             <div class="img-wrap">
@@ -127,7 +126,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="cell-md-6">
+                <div class="cell-md-6 order-1 order-2-md">
                     <div class="h-100 d-flex flex-align-center flex-justify-center">
                         <div class="h1">SCREEN<span class="text-bold">.SHOTS</span></div>
                     </div>
@@ -139,7 +138,7 @@
     <div class="container-fluid" id="pandora">
         <div class="container">
             <div class="row">
-                <div class="cell-md-6 d-flex flex-column flex-justify-center">
+                <div class="cell-md-6 d-flex flex-column flex-justify-center order-2 order-1-md">
                     <div class="h1">PANDORA<span class="text-bold">.DEMO</span></div>
                     <p>
                         Pandora - is a Responsive and Clean Admin Dashboard template.
@@ -151,7 +150,7 @@
                         <a href="#" class="button no-decor success medium right-rounded">Get Source</a>
                     </div>
                 </div>
-                <div class="cell-md-6">
+                <div class="cell-md-6 order-1 order-2-md">
                     <img src="images/pandora2.jpg" alt="">
                 </div>
             </div>
