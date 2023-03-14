@@ -33,4 +33,4 @@ import * as Mif from "@olton/metro5/icons"
 import "../css/site.css"
 
 const copyYear = $("#_copy-year")
-copyYear.html(`2019-${datetime().year()}`)
+copyYear.html(`${datetime().year()}`)
